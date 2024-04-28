@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@shared/abstracts": ["src/shared/abstracts"],
+      "@shared/constants": ["src/shared/constants"],
+      "@shared/dto": ["src/shared/dto"],
+      "@shared/repositories": ["src/shared/repositories"],
+      "@shared/services": ["src/shared/services"],
+      "@shared/utils": ["src/shared/utils"],
+      "@shared/interfaces": ["src/shared/interfaces"],
+      "@auth": ["src/modules/auth"],
+    }
+  },
+}
